@@ -6,7 +6,6 @@ import Link from 'next/link';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
@@ -14,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold text-blue-600">
-          <Link href="/">MyApp</Link>
+          <Link href="/">MyApphhhhhh</Link>
         </div>
 
         {/* Mobile menu button */}
@@ -31,7 +30,7 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <Link href="/" className=" text-black hover:text-blue-500">
+            <Link href="/" className="text-black hover:text-blue-500">
               Home
             </Link>
           </li>
@@ -42,7 +41,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/contact" className="text-black font-bold hover:text-blue-500">
-              Contact....
+              Contact...
             </Link>
           </li>
         </ul>
