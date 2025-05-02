@@ -42,7 +42,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link href="/contact" className="text-black font-bold hover:text-blue-500">
-              Contact
+              Contact....
             </Link>
           </li>
         </ul>
