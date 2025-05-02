@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-bold text-blue-600">
-          <Link href="/">MyApp</Link>
+          <Link href="/">MyApphhhhhh</Link>
         </div>
 
         {/* Mobile menu button */}
